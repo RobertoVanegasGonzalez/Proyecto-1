@@ -23,7 +23,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: black;
+    background-color:black;
+    ;
 }
 #menu{
     width: 100px;
@@ -35,23 +36,26 @@ header{
 jumbotron{
  
     
-    background-image: linear-gradient(to top, #cd0000, #d10031, #cb0054, #b80075, #990091, #9027a7, #813cbc, #6c4ed0, #917adf, #b5a6ec, #d9d2f6, #ffffff);
+    background: #BB0D03;
     display: flex;
     flex-wrap: wrap;
     padding: 25px;
     background-color: brown;
-    width: 100%
-    ;
-
+    width: 100%;
     justify-content: space-evenly;
+    
+
 }
 .div_jum{
-   
+    color: #252B37;
+	background-color: #151823;
+	animation: textColor 10s ease infinite;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     width: 350px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 5px;
     margin-bottom: 10px;
+    background: scroll;
     
     
 
@@ -153,7 +157,7 @@ jumbotron{
 }
 
 section{
-    background-image: linear-gradient(to bottom, #cd0000, #d10031, #cb0054, #b80075, #990091, #9027a7, #813cbc, #6c4ed0, #917adf, #b5a6ec, #d9d2f6, #ffffff);
+    background-color: brown;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -212,6 +216,7 @@ section{
 .contactos{
     height: 30px;
     background-color: black;
+    
 }
 .contactos > p{
     color: #fff;
@@ -242,7 +247,7 @@ section{
 }
 
 .adicionales{
-    background: linear-gradient(90deg, rgba(22,226,207,0.9248074229691877) 0%, rgba(251,254,253,1) 29%, rgba(252,221,6,1) 100%);
+    background-color: brown;
     display: flex;
     flex-wrap: wrap;
     padding: 200px;
