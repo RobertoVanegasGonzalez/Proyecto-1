@@ -298,10 +298,11 @@ section{
 #menu{
     display: block;
 }
-    adicionales {
-        padding: 20px;
+.adicionales {
+    padding: 20px;
+    flex-direction: column;
 
-    }
+}
     .pie{
         padding: 10px;
     }
