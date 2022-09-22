@@ -199,6 +199,14 @@ section{
         justify-content: space-evenly;
         padding: 15px;
         align-items: center;
+        
+    }
+    #telefonos{
+        
+            width: 100px;
+            color: white;
+            fill: white;
+            display: none;
     }
 
 .contactos{
@@ -290,7 +298,7 @@ section{
     margin-bottom: 10px;
 }
 
-@media screen and ( max-width:500px) {
+@media screen and ( max-width:600px) {
     header > ul{
          display:none;
 
@@ -304,7 +312,15 @@ section{
 
 }
     .pie{
-        padding: 10px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    #telefonos{
+        display: block;
+    }
+    .contactos{
+        display: none;
     }
  }
 
